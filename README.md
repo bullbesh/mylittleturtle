@@ -1,4 +1,4 @@
-# A small room with small graphic works made using the turtle
+# mylittleturtle
 ## Motives
 I decided to try a few ideas with vector images created with [turtle](https://docs.python.org/3/library/turtle.html) module
 ## Installation
