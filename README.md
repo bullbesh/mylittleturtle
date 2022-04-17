@@ -6,9 +6,9 @@ Clone the repository
 ```
 git clone https://github.com/bullbesh/mylittleturtle.git
 ```
-Choose file and run it in the console. For example
+Choose `works` folder with program files and run in the console
 ```
-python dual_spiral.py
+python <FILENAME>
 ```
 ## License
 [MIT License](https://github.com/bullbesh/mylittleturtle/blob/main/LICENSE)
