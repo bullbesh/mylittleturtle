@@ -4,38 +4,18 @@ import time
 
 t = turtle.Turtle()
 turtle.title("Rainbow Nested Circles")
+t.speed(10)
+t.pensize(3)
+
+circle_radius = [140, 120, 100, 80, 60, 40, 20]
+circle_color = ["Red", "Orange", "Yellow", "Green", "Cyan", "Blue", "Purple"]
 
 def create_circle_rainbow():
-	i = 140
-	t.pensize(3)
-	t.begin_fill()
-	t.color("Red")
-	t.circle(i)
-	t.end_fill()
-	t.begin_fill()
-	t.color("Orange")
-	t.circle(i-20)
-	t.end_fill()
-	t.begin_fill()
-	t.color("Yellow")
-	t.circle(i-40)
-	t.end_fill()
-	t.begin_fill()
-	t.color("Green")
-	t.circle(i-60)
-	t.end_fill()
-	t.begin_fill()
-	t.color("Cyan")
-	t.circle(i-80)
-	t.end_fill()
-	t.begin_fill()
-	t.color("Blue")
-	t.circle(i-100)
-	t.end_fill()
-	t.begin_fill()
-	t.color("Purple")
-	t.circle(i-120)
-	t.end_fill()
+	for i, j in zip(circle_radius, circle_color):
+		t.begin_fill()
+		t.color(j)
+		t.circle(i)
+		t.end_fill()
 
 if __name__ == "__main__":
 	create_circle_rainbow()
