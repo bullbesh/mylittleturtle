@@ -13,9 +13,10 @@ def create_spiral():
         t.color("red")
         t.circle(i)
         t.color("orange")
-        t.circle(i*0.8)
+        t.circle(i * 0.8)
         t.left(3)
         t.backward(3)
+
 
 if __name__ == "__main__":
     create_spiral()
