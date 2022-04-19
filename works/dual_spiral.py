@@ -5,12 +5,13 @@ import time
 t = turtle.Turtle()
 turtle.title("Dual Spiral")
 turtle.bgcolor("beige")
+t.speed(1000)
+
 
 def create_spiral():
     for i in range(120):
         t.color("red")
         t.circle(i)
-        t.speed(1000)
         t.color("orange")
         t.circle(i*0.8)
         t.left(3)
