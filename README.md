@@ -10,5 +10,7 @@ Choose `works` folder with program files and run in the console
 ```
 python <FILENAME>
 ```
+## Program outputs
+If you want to know what the graphic look like click [here](https://github.com/bullbesh/mylittleturtle/blob/main/OUTPUT.md)
 ## License
 [MIT License](https://github.com/bullbesh/mylittleturtle/blob/main/LICENSE)
