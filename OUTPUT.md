@@ -1,5 +1,5 @@
 # Program outputs
-### Here you can look at the output of all current programs.
+Here you can look at the output of all current programs.
 
 ## Dual Spiral (`dual_spiral.py`)
 ![DualSpiral](images/dual_spiral.png)
